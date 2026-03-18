@@ -1,0 +1,33 @@
+{
+  "data_source": "C:\\Users\\96480\\Desktop\\\u5927\u4e09\u4e0b\u5b66\u671f\\PRML\\1\\Data4Regression.xlsx",
+  "linear_models": [
+    {
+      "model": "Least Squares",
+      "train_mse": 0.6134024281450052,
+      "test_mse": 0.5950433861467296,
+      "param_0": -0.6487466967301824,
+      "param_1": 0.10894738685803652
+    },
+    {
+      "model": "Gradient Descent",
+      "train_mse": 0.6134024281450051,
+      "test_mse": 0.5950433854919295,
+      "param_0": -0.6487466817561086,
+      "param_1": 0.10894738460653217
+    },
+    {
+      "model": "Newton Method",
+      "train_mse": 0.613402428145005,
+      "test_mse": 0.5950433861467296,
+      "param_0": -0.6487466967301853,
+      "param_1": 0.10894738685803705
+    }
+  ],
+  "best_rbf_model": {
+    "center_count": 30,
+    "sigma": 0.5,
+    "lambda": 0.1,
+    "train_mse": 0.1751772448640999,
+    "test_mse": 0.263420861748877
+  }
+}
