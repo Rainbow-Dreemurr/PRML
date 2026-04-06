@@ -1,0 +1,7 @@
+﻿model_name,best_cv_accuracy,test_accuracy,test_precision,test_recall,test_f1,best_params
+Decision Tree,0.969,0.964,0.964,0.964,0.964,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 5}"
+AdaBoost + Decision Tree,0.975,0.972,0.9796747967479674,0.964,0.9717741935483871,"{'estimator__max_depth': 2, 'learning_rate': 1.0, 'n_estimators': 200}"
+SVM (linear kernel),0.9040000000000001,0.91,0.9051383399209486,0.916,0.9105367793240556,{'svc__C': 1}
+SVM (RBF kernel),0.9789999999999999,0.972,0.972,0.972,0.972,"{'svc__C': 10, 'svc__gamma': 'scale'}"
+SVM (polynomial kernel),0.916,0.916,0.9333333333333333,0.896,0.9142857142857143,"{'svc__C': 1, 'svc__degree': 3, 'svc__gamma': 1}"
+SVM (sigmoid kernel),0.8960000000000001,0.89,0.8823529411764706,0.9,0.8910891089108911,"{'svc__C': 0.1, 'svc__gamma': 0.1}"
