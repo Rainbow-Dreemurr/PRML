@@ -1,0 +1,41 @@
+{
+  "rows": 43800,
+  "date_start": "2010-01-02 00:00:00",
+  "date_end": "2014-12-31 23:00:00",
+  "lookback_hours": 24,
+  "feature_names": [
+    "pollution",
+    "dew",
+    "temp",
+    "press",
+    "wnd_spd",
+    "snow",
+    "rain",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "wind_NE",
+    "wind_NW",
+    "wind_SE",
+    "wind_cv"
+  ],
+  "train_sequences": 30635,
+  "validation_sequences": 6571,
+  "test_sequences": 6570,
+  "split_dates": {
+    "train_end_exclusive": "2013-07-02 11:00:00",
+    "validation_end_exclusive": "2014-04-02 06:00:00"
+  },
+  "lstm": {
+    "backend": "torch",
+    "device": "cuda",
+    "hidden_size": 64,
+    "num_layers": 1,
+    "dropout": 0.0,
+    "epochs": 20,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05
+  }
+}
