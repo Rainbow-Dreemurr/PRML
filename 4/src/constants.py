@@ -1,0 +1,4 @@
+PAD_ID = 0
+BOS_ID = 1
+EOS_ID = 2
+FIRST_SYMBOL_ID = 3
